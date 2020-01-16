@@ -1,0 +1,34 @@
+.navbar {
+	display:flex;
+	justify-content: space-around;
+	background-color: peru; 
+}
+
+.content {
+	flex-wrap: wrap;
+	display:flex; 
+	background: burlywood;
+	justify-content: center;
+}
+
+.content p {
+   width: 100%;
+}
+
+.content .news {
+   width: 33%;
+}
+
+.content h1 {
+ 	width: 100%;
+ 	text-align: center;
+}
+
+#breaking{
+
+	order: -1;
+}
+
+#breaking h3 {
+	font-size: 48px
+}
